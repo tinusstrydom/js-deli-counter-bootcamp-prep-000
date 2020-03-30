@@ -1,5 +1,6 @@
 //var katzDeliLine = [];
 function takeANumber(katzDeliLine, name){
+<<<<<<< HEAD
   katzDeliLine.push(name);
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
@@ -25,3 +26,11 @@ function currentLine(katzDeliLine){
     return text;
   }
 }
+=======
+
+  for(let i = 1; i < katzDeliLine.length; i++){
+    return "Welcome, ${name}. You are number 1 in line.";
+  }
+}
+takeANumber(katzDeliLine, "Ada");
+>>>>>>> fb81c38e59113abf312f3528947e0e1cfea6e1bd
